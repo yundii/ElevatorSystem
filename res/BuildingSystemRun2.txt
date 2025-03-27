@@ -1,0 +1,92 @@
+Welcome to the Elevator System!
+This system will simulate the operation of an elevator system.
+The system will be initialized with the following parameters:
+Number of floors: 11
+Number of elevators: 8
+Number of people: 3
+The system will then be run and the results will be displayed.
+
+Press enter to start elevator system.
+Would you like to start the elevator system? (y/n)
+y
+Starting elevator system...
+Building Report:
+BuildingReport{numFloors=11
+numElevators=8
+elevatorCapacity=3
+elevatorReports=[Waiting[Floor 0, Time 5], Waiting[Floor 0, Time 5], Waiting[Floor 0, Time 5], Waiting[Floor 0, Time 5], Waiting[Floor 0, Time 5], Waiting[Floor 0, Time 5], Waiting[Floor 0, Time 5], Waiting[Floor 0, Time 5]]
+upRequests=[]
+downRequests=[]
+systemStatus=Running}
+
+Available commands:
+1. Request elevator (up or down)
+2. Step elevator system
+3. Stop elevator system
+4. Exit
+Enter your choice (1-4): 1
+Enter start floor: 2
+Enter end floor: 3
+Building Report:
+BuildingReport{numFloors=11
+numElevators=8
+elevatorCapacity=3
+elevatorReports=[Waiting[Floor 0, Time 5], Waiting[Floor 0, Time 5], Waiting[Floor 0, Time 5], Waiting[Floor 0, Time 5], Waiting[Floor 0, Time 5], Waiting[Floor 0, Time 5], Waiting[Floor 0, Time 5], Waiting[Floor 0, Time 5]]
+upRequests=[2->3]
+downRequests=[]
+systemStatus=Running}
+
+Available commands:
+1. Request elevator (up or down)
+2. Step elevator system
+3. Stop elevator system
+4. Exit
+Enter your choice (1-4): 2
+Building Report:
+BuildingReport{numFloors=11
+numElevators=8
+elevatorCapacity=3
+elevatorReports=[[1|^|C  ]< -- --  2  3 -- -- -- -- -- -- -->, Waiting[Floor 0, Time 4], Waiting[Floor 0, Time 4], Waiting[Floor 0, Time 4], Waiting[Floor 0, Time 4], Waiting[Floor 0, Time 4], Waiting[Floor 0, Time 4], Waiting[Floor 0, Time 4]]
+upRequests=[]
+downRequests=[]
+systemStatus=Running}
+
+Available commands:
+1. Request elevator (up or down)
+2. Step elevator system
+3. Stop elevator system
+4. Exit
+Enter your choice (1-4): 2
+Building Report:
+BuildingReport{numFloors=11
+numElevators=8
+elevatorCapacity=3
+elevatorReports=[[2|^|C  ]< -- --  2  3 -- -- -- -- -- -- -->, Waiting[Floor 0, Time 3], Waiting[Floor 0, Time 3], Waiting[Floor 0, Time 3], Waiting[Floor 0, Time 3], Waiting[Floor 0, Time 3], Waiting[Floor 0, Time 3], Waiting[Floor 0, Time 3]]
+upRequests=[]
+downRequests=[]
+systemStatus=Running}
+
+Available commands:
+1. Request elevator (up or down)
+2. Step elevator system
+3. Stop elevator system
+4. Exit
+Enter your choice (1-4): 3
+Building Report:
+BuildingReport{numFloors=11
+numElevators=8
+elevatorCapacity=3
+elevatorReports=[[2|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->, Out of Service[Floor 0], Out of Service[Floor 0], Out of Service[Floor 0], Out of Service[Floor 0], Out of Service[Floor 0], Out of Service[Floor 0], Out of Service[Floor 0]]
+upRequests=[]
+downRequests=[]
+systemStatus=Stopping}
+
+Available commands:
+1. Request elevator (up or down)
+2. Step elevator system
+3. Stop elevator system
+4. Exit
+Enter your choice (1-4): 4
+Exiting program.
+
+Process finished with exit code 0

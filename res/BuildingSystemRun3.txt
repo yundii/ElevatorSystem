@@ -1,0 +1,453 @@
+Welcome to the Elevator System!
+This system will simulate the operation of an elevator system.
+The system will be initialized with the following parameters:
+Number of floors: 11
+Number of elevators: 8
+Number of people: 3
+The system will then be run and the results will be displayed.
+
+Press enter to start elevator system.
+Would you like to start the elevator system? (y/n)
+y
+Starting elevator system...
+Building Report:
+BuildingReport{numFloors=11
+numElevators=8
+elevatorCapacity=3
+elevatorReports=[Waiting[Floor 0, Time 5], Waiting[Floor 0, Time 5], Waiting[Floor 0, Time 5], Waiting[Floor 0, Time 5], Waiting[Floor 0, Time 5], Waiting[Floor 0, Time 5], Waiting[Floor 0, Time 5], Waiting[Floor 0, Time 5]]
+upRequests=[]
+downRequests=[]
+systemStatus=Running}
+
+Available commands:
+1. Request elevator (up or down)
+2. Step elevator system
+3. Stop elevator system
+4. Exit
+Enter your choice (1-4): 1
+Enter start floor: 10
+Enter end floor: 8
+Building Report:
+BuildingReport{numFloors=11
+numElevators=8
+elevatorCapacity=3
+elevatorReports=[Waiting[Floor 0, Time 5], Waiting[Floor 0, Time 5], Waiting[Floor 0, Time 5], Waiting[Floor 0, Time 5], Waiting[Floor 0, Time 5], Waiting[Floor 0, Time 5], Waiting[Floor 0, Time 5], Waiting[Floor 0, Time 5]]
+upRequests=[]
+downRequests=[10->8]
+systemStatus=Running}
+
+Available commands:
+1. Request elevator (up or down)
+2. Step elevator system
+3. Stop elevator system
+4. Exit
+Enter your choice (1-4): 2
+Building Report:
+BuildingReport{numFloors=11
+numElevators=8
+elevatorCapacity=3
+elevatorReports=[Waiting[Floor 0, Time 4], Waiting[Floor 0, Time 4], Waiting[Floor 0, Time 4], Waiting[Floor 0, Time 4], Waiting[Floor 0, Time 4], Waiting[Floor 0, Time 4], Waiting[Floor 0, Time 4], Waiting[Floor 0, Time 4]]
+upRequests=[]
+downRequests=[10->8]
+systemStatus=Running}
+
+Available commands:
+1. Request elevator (up or down)
+2. Step elevator system
+3. Stop elevator system
+4. Exit
+Enter your choice (1-4): 2
+Building Report:
+BuildingReport{numFloors=11
+numElevators=8
+elevatorCapacity=3
+elevatorReports=[Waiting[Floor 0, Time 3], Waiting[Floor 0, Time 3], Waiting[Floor 0, Time 3], Waiting[Floor 0, Time 3], Waiting[Floor 0, Time 3], Waiting[Floor 0, Time 3], Waiting[Floor 0, Time 3], Waiting[Floor 0, Time 3]]
+upRequests=[]
+downRequests=[10->8]
+systemStatus=Running}
+
+Available commands:
+1. Request elevator (up or down)
+2. Step elevator system
+3. Stop elevator system
+4. Exit
+Enter your choice (1-4): 2
+Building Report:
+BuildingReport{numFloors=11
+numElevators=8
+elevatorCapacity=3
+elevatorReports=[Waiting[Floor 0, Time 2], Waiting[Floor 0, Time 2], Waiting[Floor 0, Time 2], Waiting[Floor 0, Time 2], Waiting[Floor 0, Time 2], Waiting[Floor 0, Time 2], Waiting[Floor 0, Time 2], Waiting[Floor 0, Time 2]]
+upRequests=[]
+downRequests=[10->8]
+systemStatus=Running}
+
+Available commands:
+1. Request elevator (up or down)
+2. Step elevator system
+3. Stop elevator system
+4. Exit
+Enter your choice (1-4): 2
+Building Report:
+BuildingReport{numFloors=11
+numElevators=8
+elevatorCapacity=3
+elevatorReports=[Waiting[Floor 0, Time 1], Waiting[Floor 0, Time 1], Waiting[Floor 0, Time 1], Waiting[Floor 0, Time 1], Waiting[Floor 0, Time 1], Waiting[Floor 0, Time 1], Waiting[Floor 0, Time 1], Waiting[Floor 0, Time 1]]
+upRequests=[]
+downRequests=[10->8]
+systemStatus=Running}
+
+Available commands:
+1. Request elevator (up or down)
+2. Step elevator system
+3. Stop elevator system
+4. Exit
+Enter your choice (1-4): 2
+Building Report:
+BuildingReport{numFloors=11
+numElevators=8
+elevatorCapacity=3
+elevatorReports=[[0|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->, [0|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->, [0|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->, [0|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->, [0|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->, [0|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->, [0|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->, [0|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->]
+upRequests=[]
+downRequests=[10->8]
+systemStatus=Running}
+
+Available commands:
+1. Request elevator (up or down)
+2. Step elevator system
+3. Stop elevator system
+4. Exit
+Enter your choice (1-4): 2
+Building Report:
+BuildingReport{numFloors=11
+numElevators=8
+elevatorCapacity=3
+elevatorReports=[[1|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->, [1|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->, [1|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->, [1|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->, [1|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->, [1|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->, [1|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->, [1|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->]
+upRequests=[]
+downRequests=[10->8]
+systemStatus=Running}
+
+Available commands:
+1. Request elevator (up or down)
+2. Step elevator system
+3. Stop elevator system
+4. Exit
+Enter your choice (1-4): 2
+Building Report:
+BuildingReport{numFloors=11
+numElevators=8
+elevatorCapacity=3
+elevatorReports=[[2|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->, [2|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->, [2|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->, [2|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->, [2|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->, [2|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->, [2|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->, [2|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->]
+upRequests=[]
+downRequests=[10->8]
+systemStatus=Running}
+
+Available commands:
+1. Request elevator (up or down)
+2. Step elevator system
+3. Stop elevator system
+4. Exit
+Enter your choice (1-4): 2
+Building Report:
+BuildingReport{numFloors=11
+numElevators=8
+elevatorCapacity=3
+elevatorReports=[[3|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->, [3|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->, [3|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->, [3|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->, [3|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->, [3|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->, [3|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->, [3|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->]
+upRequests=[]
+downRequests=[10->8]
+systemStatus=Running}
+
+Available commands:
+1. Request elevator (up or down)
+2. Step elevator system
+3. Stop elevator system
+4. Exit
+Enter your choice (1-4): 2
+Building Report:
+BuildingReport{numFloors=11
+numElevators=8
+elevatorCapacity=3
+elevatorReports=[[4|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->, [4|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->, [4|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->, [4|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->, [4|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->, [4|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->, [4|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->, [4|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->]
+upRequests=[]
+downRequests=[10->8]
+systemStatus=Running}
+
+Available commands:
+1. Request elevator (up or down)
+2. Step elevator system
+3. Stop elevator system
+4. Exit
+Enter your choice (1-4): 2
+Building Report:
+BuildingReport{numFloors=11
+numElevators=8
+elevatorCapacity=3
+elevatorReports=[[5|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->, [5|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->, [5|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->, [5|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->, [5|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->, [5|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->, [5|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->, [5|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->]
+upRequests=[]
+downRequests=[10->8]
+systemStatus=Running}
+
+Available commands:
+1. Request elevator (up or down)
+2. Step elevator system
+3. Stop elevator system
+4. Exit
+Enter your choice (1-4): 2
+Building Report:
+BuildingReport{numFloors=11
+numElevators=8
+elevatorCapacity=3
+elevatorReports=[[6|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->, [6|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->, [6|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->, [6|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->, [6|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->, [6|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->, [6|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->, [6|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->]
+upRequests=[]
+downRequests=[10->8]
+systemStatus=Running}
+
+Available commands:
+1. Request elevator (up or down)
+2. Step elevator system
+3. Stop elevator system
+4. Exit
+Enter your choice (1-4): 2
+Building Report:
+BuildingReport{numFloors=11
+numElevators=8
+elevatorCapacity=3
+elevatorReports=[[7|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->, [7|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->, [7|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->, [7|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->, [7|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->, [7|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->, [7|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->, [7|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->]
+upRequests=[]
+downRequests=[10->8]
+systemStatus=Running}
+
+Available commands:
+1. Request elevator (up or down)
+2. Step elevator system
+3. Stop elevator system
+4. Exit
+Enter your choice (1-4): 2
+Building Report:
+BuildingReport{numFloors=11
+numElevators=8
+elevatorCapacity=3
+elevatorReports=[[8|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->, [8|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->, [8|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->, [8|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->, [8|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->, [8|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->, [8|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->, [8|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->]
+upRequests=[]
+downRequests=[10->8]
+systemStatus=Running}
+
+Available commands:
+1. Request elevator (up or down)
+2. Step elevator system
+3. Stop elevator system
+4. Exit
+Enter your choice (1-4): 2
+Building Report:
+BuildingReport{numFloors=11
+numElevators=8
+elevatorCapacity=3
+elevatorReports=[[9|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->, [9|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->, [9|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->, [9|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->, [9|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->, [9|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->, [9|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->, [9|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->]
+upRequests=[]
+downRequests=[10->8]
+systemStatus=Running}
+
+Available commands:
+1. Request elevator (up or down)
+2. Step elevator system
+3. Stop elevator system
+4. Exit
+Enter your choice (1-4): 2
+Building Report:
+BuildingReport{numFloors=11
+numElevators=8
+elevatorCapacity=3
+elevatorReports=[[10|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->, [10|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->, [10|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->, [10|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->, [10|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->, [10|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->, [10|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->, [10|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->]
+upRequests=[]
+downRequests=[10->8]
+systemStatus=Running}
+
+Available commands:
+1. Request elevator (up or down)
+2. Step elevator system
+3. Stop elevator system
+4. Exit
+Enter your choice (1-4): 2
+Building Report:
+BuildingReport{numFloors=11
+numElevators=8
+elevatorCapacity=3
+elevatorReports=[Waiting[Floor 10, Time 5], Waiting[Floor 10, Time 5], Waiting[Floor 10, Time 5], Waiting[Floor 10, Time 5], Waiting[Floor 10, Time 5], Waiting[Floor 10, Time 5], Waiting[Floor 10, Time 5], Waiting[Floor 10, Time 5]]
+upRequests=[]
+downRequests=[10->8]
+systemStatus=Running}
+
+Available commands:
+1. Request elevator (up or down)
+2. Step elevator system
+3. Stop elevator system
+4. Exit
+Enter your choice (1-4): 2
+Building Report:
+BuildingReport{numFloors=11
+numElevators=8
+elevatorCapacity=3
+elevatorReports=[[10|v|O 3]< -- -- -- -- -- -- -- --  8 -- -->, Waiting[Floor 10, Time 4], Waiting[Floor 10, Time 4], Waiting[Floor 10, Time 4], Waiting[Floor 10, Time 4], Waiting[Floor 10, Time 4], Waiting[Floor 10, Time 4], Waiting[Floor 10, Time 4]]
+upRequests=[]
+downRequests=[]
+systemStatus=Running}
+
+Available commands:
+1. Request elevator (up or down)
+2. Step elevator system
+3. Stop elevator system
+4. Exit
+Enter your choice (1-4): 2
+Building Report:
+BuildingReport{numFloors=11
+numElevators=8
+elevatorCapacity=3
+elevatorReports=[[10|v|O 2]< -- -- -- -- -- -- -- --  8 -- -->, Waiting[Floor 10, Time 3], Waiting[Floor 10, Time 3], Waiting[Floor 10, Time 3], Waiting[Floor 10, Time 3], Waiting[Floor 10, Time 3], Waiting[Floor 10, Time 3], Waiting[Floor 10, Time 3]]
+upRequests=[]
+downRequests=[]
+systemStatus=Running}
+
+Available commands:
+1. Request elevator (up or down)
+2. Step elevator system
+3. Stop elevator system
+4. Exit
+Enter your choice (1-4): 2
+Building Report:
+BuildingReport{numFloors=11
+numElevators=8
+elevatorCapacity=3
+elevatorReports=[[10|v|O 1]< -- -- -- -- -- -- -- --  8 -- -->, Waiting[Floor 10, Time 2], Waiting[Floor 10, Time 2], Waiting[Floor 10, Time 2], Waiting[Floor 10, Time 2], Waiting[Floor 10, Time 2], Waiting[Floor 10, Time 2], Waiting[Floor 10, Time 2]]
+upRequests=[]
+downRequests=[]
+systemStatus=Running}
+
+Available commands:
+1. Request elevator (up or down)
+2. Step elevator system
+3. Stop elevator system
+4. Exit
+Enter your choice (1-4): 2
+Building Report:
+BuildingReport{numFloors=11
+numElevators=8
+elevatorCapacity=3
+elevatorReports=[[10|v|C  ]< -- -- -- -- -- -- -- --  8 -- -->, Waiting[Floor 10, Time 1], Waiting[Floor 10, Time 1], Waiting[Floor 10, Time 1], Waiting[Floor 10, Time 1], Waiting[Floor 10, Time 1], Waiting[Floor 10, Time 1], Waiting[Floor 10, Time 1]]
+upRequests=[]
+downRequests=[]
+systemStatus=Running}
+
+Available commands:
+1. Request elevator (up or down)
+2. Step elevator system
+3. Stop elevator system
+4. Exit
+Enter your choice (1-4): 2
+Building Report:
+BuildingReport{numFloors=11
+numElevators=8
+elevatorCapacity=3
+elevatorReports=[[9|v|C  ]< -- -- -- -- -- -- -- --  8 -- -->, [10|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->, [10|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->, [10|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->, [10|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->, [10|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->, [10|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->, [10|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->]
+upRequests=[]
+downRequests=[]
+systemStatus=Running}
+
+Available commands:
+1. Request elevator (up or down)
+2. Step elevator system
+3. Stop elevator system
+4. Exit
+Enter your choice (1-4): 2
+Building Report:
+BuildingReport{numFloors=11
+numElevators=8
+elevatorCapacity=3
+elevatorReports=[[8|v|C  ]< -- -- -- -- -- -- -- --  8 -- -->, [9|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->, [9|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->, [9|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->, [9|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->, [9|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->, [9|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->, [9|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->]
+upRequests=[]
+downRequests=[]
+systemStatus=Running}
+
+Available commands:
+1. Request elevator (up or down)
+2. Step elevator system
+3. Stop elevator system
+4. Exit
+Enter your choice (1-4): 2
+Building Report:
+BuildingReport{numFloors=11
+numElevators=8
+elevatorCapacity=3
+elevatorReports=[[8|v|O 3]< -- -- -- -- -- -- -- -- -- -- -->, [8|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->, [8|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->, [8|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->, [8|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->, [8|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->, [8|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->, [8|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->]
+upRequests=[]
+downRequests=[]
+systemStatus=Running}
+
+Available commands:
+1. Request elevator (up or down)
+2. Step elevator system
+3. Stop elevator system
+4. Exit
+Enter your choice (1-4): 2
+Building Report:
+BuildingReport{numFloors=11
+numElevators=8
+elevatorCapacity=3
+elevatorReports=[[8|v|O 2]< -- -- -- -- -- -- -- -- -- -- -->, [7|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->, [7|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->, [7|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->, [7|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->, [7|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->, [7|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->, [7|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->]
+upRequests=[]
+downRequests=[]
+systemStatus=Running}
+
+Available commands:
+1. Request elevator (up or down)
+2. Step elevator system
+3. Stop elevator system
+4. Exit
+Enter your choice (1-4): 2
+Building Report:
+BuildingReport{numFloors=11
+numElevators=8
+elevatorCapacity=3
+elevatorReports=[[8|v|O 1]< -- -- -- -- -- -- -- -- -- -- -->, [6|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->, [6|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->, [6|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->, [6|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->, [6|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->, [6|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->, [6|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->]
+upRequests=[]
+downRequests=[]
+systemStatus=Running}
+
+Available commands:
+1. Request elevator (up or down)
+2. Step elevator system
+3. Stop elevator system
+4. Exit
+Enter your choice (1-4): 2
+Building Report:
+BuildingReport{numFloors=11
+numElevators=8
+elevatorCapacity=3
+elevatorReports=[[8|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->, [5|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->, [5|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->, [5|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->, [5|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->, [5|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->, [5|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->, [5|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->]
+upRequests=[]
+downRequests=[]
+systemStatus=Running}
+
+Available commands:
+1. Request elevator (up or down)
+2. Step elevator system
+3. Stop elevator system
+4. Exit
+Enter your choice (1-4): 2
+Building Report:
+BuildingReport{numFloors=11
+numElevators=8
+elevatorCapacity=3
+elevatorReports=[[7|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->, [4|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->, [4|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->, [4|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->, [4|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->, [4|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->, [4|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->, [4|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->]
+upRequests=[]
+downRequests=[]
+systemStatus=Running}
+
+Available commands:
+1. Request elevator (up or down)
+2. Step elevator system
+3. Stop elevator system
+4. Exit
+Enter your choice (1-4): 4
+Exiting program.
+
+Process finished with exit code 0
+
